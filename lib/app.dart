@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/speedometer/presentation/screens/speedometer_screen.dart';
+import 'features/screen/home_screen.dart';
 
 // If using a state manager, you might wrap MaterialApp here.
 class SpeedometerApp extends StatelessWidget {
@@ -39,7 +39,7 @@ class SpeedometerApp extends StatelessWidget {
       // --- ROUTING ---
       // For a utility app, setting a direct 'home' is usually fine.
       // If the app gets complex, you can switch to a router package like GoRouter.
-      home: const SpeedometerScreen(),
+      home: const HomeScreen(),
     );
   }
 }
